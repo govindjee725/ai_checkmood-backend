@@ -1,0 +1,84 @@
+# ----------------------
+# Dependencies
+# ----------------------
+node_modules/
+
+# ----------------------
+# Environment variables (IMPORTANT)
+# ----------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------
+# Logs
+# ----------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------
+# Runtime data
+# ----------------------
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ----------------------
+# Build / Output
+# ----------------------
+dist/
+build/
+out/
+
+# ----------------------
+# Cache
+# ----------------------
+.cache/
+.nyc_output/
+coverage/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----------------------
+# Optional: uploads / temp files
+# ----------------------
+uploads/
+tmp/
+temp/
+
+# ----------------------
+# Optional: database files
+# ----------------------
+*.sqlite
+*.db
+
+# ----------------------
+# TypeScript (if used)
+# ----------------------
+*.tsbuildinfo
+
+# ----------------------
+# Misc
+# ----------------------
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
