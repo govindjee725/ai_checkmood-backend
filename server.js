@@ -10,15 +10,14 @@ const PORT = process.env.PORT || 5000;
 /* ----------------------------------
    🔥 CORS Setup
 ---------------------------------- */
-app.use(
-  cors({
-    origin: [
-      "http://localhost:5173",
-      "https://ai-checkmood-frontend.vercel.app"
-    ],
-    credentials: true
-  })
-);
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://ai-checkmood-frontend-3sag.vercel.app"
+  ],
+  methods: ["GET", "POST", "DELETE", "PUT"],
+  credentials: true
+}));
 
 /* ----------------------------------
    JSON Middleware
